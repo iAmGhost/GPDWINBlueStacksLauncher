@@ -9,3 +9,7 @@
 ## How to build
 
 You can use [AutoIt](https://www.autoitscript.com) to build this script.
+
+## Download
+
+See [Releases](https://github.com/iAmGhost/GPDWINBluestacksLauncher/releases) for prebuilt binary.

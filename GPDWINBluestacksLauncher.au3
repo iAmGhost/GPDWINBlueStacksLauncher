@@ -13,7 +13,10 @@ RegWrite($bsFrameBufferReg, "WindowHeight", "REG_DWORD", 1280)
 
 RunWait($bsDir & "Bluestacks.exe")
 
+Sleep(3000)
+
 ProcessClose("HD-Agent.exe")
+ProcessClose("HD-Adb.exe")
 ProcessClose("BstkSVC.exe")
 stopService("BstHdLogRotatorSvc")
 stopService("BstHdPlusAndroidSvc")
